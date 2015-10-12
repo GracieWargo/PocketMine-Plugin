@@ -1,4 +1,4 @@
-<php
+<?php
 /*
 __PocketMine Plugin__
 name=CControl
