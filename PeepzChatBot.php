@@ -20,7 +20,7 @@ class Chat implements Plugin {
 		$this->api->addHandler("player.chat", array($this, "eventHandle"), 50);
 		$this->api->addHandler("player.join", array($this, "eventHandle"), 50);
 		$this->config = new Config($this->api->plugin->configPath($this)."config.yml", CONFIG_YAML, array("chat"=>"on","botid"=>"f5d922d97e345aa1","botname"=>"PeepzCraft"));
-		$this->api->console->register('chat', "[on|off] Enable or disable PandoraBot.",array($this, 'commandHandle'));
+		$this->api->console->register('chat', "[on|off] Enable or disable PeepzBot.",array($this, 'commandHandle'));
 		$this->api->console->alias("cb", "chat);
 	}
 	
