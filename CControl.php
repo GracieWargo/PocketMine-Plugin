@@ -4,7 +4,7 @@ __PocketMine Plugin__
 name=CControl
 description= Controls the chat
 version=2.0
-author=wies
+author=dsate1
 class=CControl
 apiversion=11
 */
